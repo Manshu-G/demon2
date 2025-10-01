@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,32 +11,40 @@
         html {
             scroll-behavior: smooth;
         }
+
         .gradient-bg {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         }
+
         .skill-bar {
             transition: width 2s ease-in-out;
         }
+
         .timeline-item {
             opacity: 0;
             transform: translateY(20px);
             transition: all 0.6s ease;
         }
+
         .timeline-item.animate {
             opacity: 1;
             transform: translateY(0);
         }
+
         .project-card {
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
+
         .project-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
         }
+
         .nav-link {
             position: relative;
             transition: color 0.3s ease;
         }
+
         .nav-link::after {
             content: '';
             position: absolute;
@@ -46,6 +55,7 @@
             background-color: #667eea;
             transition: all 0.3s ease;
         }
+
         .nav-link:hover::after,
         .nav-link.active::after {
             width: 100%;
@@ -53,6 +63,7 @@
         }
     </style>
 </head>
+
 <body class="bg-gray-50 text-gray-800">
     <!-- Fixed Navigation -->
     <nav class="fixed top-0 w-full bg-white shadow-lg z-50">
@@ -92,22 +103,26 @@
         <div class="max-w-4xl mx-auto px-4 text-center text-white">
             <div class="mb-8">
                 <div class="w-48 h-48 mx-auto mb-8 rounded-full bg-white p-2 shadow-2xl">
-                    <div class="w-full h-full rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
-                        <img src="/public//img.jpg" 
-                        class="rounded-full w-full h-full rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
+                    <div
+                        class="w-full h-full rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
+                        <img src="/public//img.jpg"
+                            class="rounded-full w-full h-full rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
                     </div>
                 </div>
             </div>
             <h1 class="text-5xl md:text-6xl font-bold mb-6">Himanshu Gupta</h1>
             <h2 class="text-2xl md:text-3xl font-light mb-8">Aspiring IT Professional</h2>
             <p class="text-xl md:text-2xl mb-12 max-w-3xl mx-auto leading-relaxed">
-                Seeking an IT role to leverage IT and project management skills for team leadership and improving functionality
+                Seeking an IT role to leverage IT and project management skills for team leadership and improving
+                functionality
             </p>
             <div class="space-x-4">
-                <a href="#projects" class="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition duration-300 inline-block">
+                <a href="#projects"
+                    class="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition duration-300 inline-block">
                     View Portfolio
                 </a>
-                <a href="#contact" class="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-blue-600 transition duration-300 inline-block">
+                <a href="#contact"
+                    class="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-blue-600 transition duration-300 inline-block">
                     Contact Me
                 </a>
             </div>
@@ -125,10 +140,13 @@
                 <div>
                     <h3 class="text-2xl font-semibold mb-6 text-gray-800">Personal Bio</h3>
                     <p class="text-lg text-gray-600 leading-relaxed mb-6">
-                        I am a highly motivated and skilled individual with a strong foundation in IT and project management. My goal is to improve everyday functionality and increase IT-related profitability through innovative solutions and efficient team collaboration.
+                        I am a highly motivated and skilled individual with a strong foundation in IT and project
+                        management. My goal is to improve everyday functionality and increase IT-related profitability
+                        through innovative solutions and efficient team collaboration.
                     </p>
                     <p class="text-lg text-gray-600 leading-relaxed">
-                        I am eager to apply my expertise in a professional IT role where I can contribute to team leadership and drive meaningful improvements in organizational functionality.
+                        I am eager to apply my expertise in a professional IT role where I can contribute to team
+                        leadership and drive meaningful improvements in organizational functionality.
                     </p>
                 </div>
                 <div>
@@ -284,16 +302,18 @@
             </div>
             <div class="relative">
                 <div class="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-blue-200"></div>
-                
+
                 <!-- Timeline Items -->
                 <div class="timeline-item mb-12">
                     <div class="flex items-center mb-4">
                         <div class="flex-1 text-right pr-8">
                             <div class="bg-blue-50 p-6 rounded-lg shadow-md">
                                 <h3 class="text-xl font-semibold text-blue-800 mb-2">Nielit 'O' Level IT</h3>
-                                <p class="text-gray-600 mb-2">National Institute of Electronics & Information Technology</p>
+                                <p class="text-gray-600 mb-2">National Institute of Electronics & Information Technology
+                                </p>
                                 <p class="text-sm text-gray-500">NIELIT Inderlok, Delhi</p>
-                                <span class="inline-block bg-blue-600 text-white px-3 py-1 rounded-full text-sm mt-2">2025-2026</span>
+                                <span
+                                    class="inline-block bg-blue-600 text-white px-3 py-1 rounded-full text-sm mt-2">2025-2026</span>
                             </div>
                         </div>
                         <div class="w-4 h-4 bg-blue-600 rounded-full border-4 border-white shadow-lg z-10"></div>
@@ -307,10 +327,12 @@
                         <div class="w-4 h-4 bg-blue-600 rounded-full border-4 border-white shadow-lg z-10"></div>
                         <div class="flex-1 pl-8">
                             <div class="bg-green-50 p-6 rounded-lg shadow-md">
-                                <h3 class="text-xl font-semibold text-green-800 mb-2">Diploma in Chemical Engineering</h3>
+                                <h3 class="text-xl font-semibold text-green-800 mb-2">Diploma in Chemical Engineering
+                                </h3>
                                 <p class="text-gray-600 mb-2">Guru Nanak Dev Rohini Campus</p>
                                 <p class="text-sm text-gray-500">Delhi Skill & Entrepreneurship University</p>
-                                <span class="inline-block bg-green-600 text-white px-3 py-1 rounded-full text-sm mt-2">2021-2024</span>
+                                <span
+                                    class="inline-block bg-green-600 text-white px-3 py-1 rounded-full text-sm mt-2">2021-2024</span>
                             </div>
                         </div>
                     </div>
@@ -320,10 +342,14 @@
                     <div class="flex items-center mb-4">
                         <div class="flex-1 text-right pr-8">
                             <div class="bg-purple-50 p-6 rounded-lg shadow-md">
-                                <h3 class="text-xl font-semibold text-purple-800 mb-2">Internship - Water Treatment Analysis</h3>
-                                <p class="text-gray-600 mb-2">Chemical & Bacteriological Analysis & Treatment of Water</p>
+                                <h3 class="text-xl font-semibold text-purple-800 mb-2">Internship - Water Treatment
+                                    Analysis</h3>
+                                <p class="text-gray-600 mb-2">Chemical & Bacteriological Analysis & Treatment of Water
+                                </p>
                                 <p class="text-sm text-gray-500">40 MGD WTP Delhi Jal Board, Nangloi, Delhi-41</p>
-                                <span class="inline-block bg-purple-600 text-white px-3 py-1 rounded-full text-sm mt-2">1 Month</span>
+                                <span
+                                    class="inline-block bg-purple-600 text-white px-3 py-1 rounded-full text-sm mt-2">1
+                                    Month</span>
                             </div>
                         </div>
                         <div class="w-4 h-4 bg-blue-600 rounded-full border-4 border-white shadow-lg z-10"></div>
@@ -340,7 +366,8 @@
                                 <h3 class="text-xl font-semibold text-yellow-800 mb-2">XII (NIOS)</h3>
                                 <p class="text-gray-600 mb-2">Remal Public School</p>
                                 <p class="text-sm text-gray-500">Rohini, Delhi</p>
-                                <span class="inline-block bg-yellow-600 text-white px-3 py-1 rounded-full text-sm mt-2">2023</span>
+                                <span
+                                    class="inline-block bg-yellow-600 text-white px-3 py-1 rounded-full text-sm mt-2">2023</span>
                             </div>
                         </div>
                     </div>
@@ -353,7 +380,8 @@
                                 <h3 class="text-xl font-semibold text-red-800 mb-2">X (CBSE)</h3>
                                 <p class="text-gray-600 mb-2">Abhinav Public School</p>
                                 <p class="text-sm text-gray-500">Pitampura, Delhi</p>
-                                <span class="inline-block bg-red-600 text-white px-3 py-1 rounded-full text-sm mt-2">2014</span>
+                                <span
+                                    class="inline-block bg-red-600 text-white px-3 py-1 rounded-full text-sm mt-2">2014</span>
                             </div>
                         </div>
                         <div class="w-4 h-4 bg-blue-600 rounded-full border-4 border-white shadow-lg z-10"></div>
@@ -379,9 +407,11 @@
                     <div class="p-6">
                         <h3 class="text-xl font-semibold mb-3 text-gray-800">DJB Internship Report</h3>
                         <p class="text-gray-600 mb-4">
-                            Comprehensive analysis and documentation of water treatment processes during internship at Delhi Jal Board's 40 MGD Water Treatment Plant.
+                            Comprehensive analysis and documentation of water treatment processes during internship at
+                            Delhi Jal Board's 40 MGD Water Treatment Plant.
                         </p>
-                        <a href="C:\Users\himan\Downloads\Himanshu_Internship_Report[1].pdf" class="flex items-center text-blue-600">
+                        <a href="https://drive.google.com/file/d/1McfqXT7cTae3gDb7vEzrDTOqM5srZoqE/view?usp=drive_link"
+                            class="flex items-center text-blue-600">
                             <i class="fas fa-external-link-alt mr-2"></i>
                             <span class="text-sm font-medium">View Project</span>
                         </a>
@@ -395,14 +425,19 @@
                     <div class="p-6">
                         <h3 class="text-xl font-semibold mb-3 text-gray-800">Coal Briquettes Major Project</h3>
                         <p class="text-gray-600 mb-4">
-                            Detailed research and development project focusing on coal briquette production methods and their environmental impact assessment.
+                            Detailed research and development project focusing on coal briquette production methods and
+                            their environmental impact assessment.
                         </p>
-                        <a href="C:\Users\himan\Downloads\Major Project Report By Himanshu Gupta (10421036) (1) (1).pdf" class="flex items-center text-green-600">
+
+
+
+                        <a href="https://drive.google.com/file/d/1DdfRUN3e8UftApZA-oVwaQyji3ZDShxe/view?usp=drive_link"
+                            class="flex items-center text-green-600">
                             <i class="fas fa-external-link-alt mr-2"></i>
-                           
-                                
-                              <a href="https://drive.google.com/file/d/1gQ71WbqjxvjEYCVZU5N0MS6fSxBUNDW1/view?usp=drive_open" class="text-sm font-medium"> View Projectrt4</a>
-                         
+                            <span class="text-sm font-medium">View
+                                Project</span>
+
+
                         </a>
                     </div>
                 </div>
@@ -414,9 +449,11 @@
                     <div class="p-6">
                         <h3 class="text-xl font-semibold mb-3 text-gray-800">Himachal Pradesh Floods Assessment</h3>
                         <p class="text-gray-600 mb-4">
-                            Situation assessment report analyzing the impact and response to the July 2023 floods in Himachal Pradesh, including damage evaluation.
+                            Situation assessment report analyzing the impact and response to the July 2023 floods in
+                            Himachal Pradesh, including damage evaluation.
                         </p>
-                        <a href="C:\Users\himan\Downloads\Situation_Report_Himachal_Pradesh_Floods_Jul23[1] (1).pdf" class="flex items-center text-purple-600">
+                        <a href="https://drive.google.com/file/d/1gQ71WbqjxvjEYCVZU5N0MS6fSxBUNDW1/view?usp=drive_link"
+                            class="flex items-center text-purple-600">
                             <i class="fas fa-external-link-alt mr-2"></i>
                             <span class="text-sm font-medium">View Project</span>
                         </a>
@@ -457,6 +494,17 @@
                         </div>
                         <div class="flex items-center">
                             <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                                <i class="fa-brands fa-linkedin text-blue-600"></i>
+                            </div>
+                            <div class="flex flex-col">
+                                <p class="font-semibold text-gray-800">LinkedIn</p>
+                                <p class="text-gray-600"><a
+                                        href="https://www.linkedin.com/in/himanshu-gupta-2b7722356?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">View
+                                        Profile</a></p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
                                 <i class="fas fa-map-marker-alt text-blue-600"></i>
                             </div>
                             <div>
@@ -466,30 +514,64 @@
                         </div>
                     </div>
                 </div>
-                <div>
+                <!-- <div>
                     <h3 class="text-2xl font-semibold mb-6 text-gray-800">Send a Message</h3>
                     <form id="contact-form" class="space-y-6">
                         <div>
                             <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Name</label>
-                            <input type="text" id="name" name="name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            <input type="text" id="name" name="name" required
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
                         </div>
                         <div>
                             <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email</label>
-                            <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            <input type="email" id="email" name="email" required
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
                         </div>
                         <div>
                             <label for="subject" class="block text-sm font-medium text-gray-700 mb-2">Subject</label>
-                            <input type="text" id="subject" name="subject" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            <input type="text" id="subject" name="subject" required
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
                         </div>
                         <div>
                             <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message</label>
-                            <textarea id="message" name="message" rows="5" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"></textarea>
+                            <textarea id="message" name="message" rows="5" required
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"></textarea>
                         </div>
-                        <button type="submit" class="w-full bg-blue-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition duration-300">
+                        <button type="submit"
+                            class="w-full bg-blue-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition duration-300">
                             Send Message
                         </button>
                     </form>
+                </div> -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-6 text-gray-800">Send a Message</h3>
+                 <form action="https://formspree.io/f/xvgwaezb" method="POST" class="space-y-4">
+  <div>
+    <label for="name" class="block text-sm font-medium">Name</label>
+    <input type="text" id="name" name="name" required
+      class="w-full p-2 border rounded-md focus:ring-2 focus:ring-indigo-500">
+  </div>
+
+  <div>
+    <label for="email" class="block text-sm font-medium">Email</label>
+    <input type="email" id="email" name="email" required
+      class="w-full p-2 border rounded-md focus:ring-2 focus:ring-indigo-500">
+  </div>
+
+  <div>
+    <label for="message" class="block text-sm font-medium">Message</label>
+    <textarea id="message" name="message" rows="4" required
+      class="w-full p-2 border rounded-md focus:ring-2 focus:ring-indigo-500"></textarea>
+  </div>
+
+  <button type="submit"
+    class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition">
+    Send Message
+  </button>
+</form>
+
                 </div>
+
             </div>
         </div>
     </section>
@@ -502,103 +584,94 @@
         </div>
     </footer>
 
-    <script>
-        // Mobile menu toggle
-        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
+   <script>
+    // Mobile menu toggle
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
 
-        mobileMenuBtn.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
+    mobileMenuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+
+    // Smooth scrolling and active nav links
+    const navLinks = document.querySelectorAll('.nav-link');
+    const sections = document.querySelectorAll('section');
+
+    function updateActiveNav() {
+        let current = '';
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            if (scrollY >= (sectionTop - 200)) {
+                current = section.getAttribute('id');
+            }
         });
 
-        // Smooth scrolling and active nav links
-        const navLinks = document.querySelectorAll('.nav-link');
-        const sections = document.querySelectorAll('section');
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === `#${current}`) {
+                link.classList.add('active');
+            }
+        });
+    }
 
-        function updateActiveNav() {
-            let current = '';
-            sections.forEach(section => {
-                const sectionTop = section.offsetTop;
-                const sectionHeight = section.clientHeight;
-                if (scrollY >= (sectionTop - 200)) {
-                    current = section.getAttribute('id');
-                }
-            });
+    window.addEventListener('scroll', updateActiveNav);
 
-            navLinks.forEach(link => {
-                link.classList.remove('active');
-                if (link.getAttribute('href') === `#${current}`) {
-                    link.classList.add('active');
-                }
-            });
-        }
+    // Timeline animation
+    const timelineItems = document.querySelectorAll('.timeline-item');
 
-        window.addEventListener('scroll', updateActiveNav);
+    function animateTimeline() {
+        timelineItems.forEach(item => {
+            const itemTop = item.getBoundingClientRect().top;
+            const itemBottom = item.getBoundingClientRect().bottom;
 
-        // Timeline animation
-        const timelineItems = document.querySelectorAll('.timeline-item');
-        
-        function animateTimeline() {
-            timelineItems.forEach(item => {
-                const itemTop = item.getBoundingClientRect().top;
-                const itemBottom = item.getBoundingClientRect().bottom;
-                
-                if (itemTop < window.innerHeight && itemBottom > 0) {
-                    item.classList.add('animate');
-                }
-            });
-        }
+            if (itemTop < window.innerHeight && itemBottom > 0) {
+                item.classList.add('animate');
+            }
+        });
+    }
 
-        window.addEventListener('scroll', animateTimeline);
-        animateTimeline(); // Initial check
+    window.addEventListener('scroll', animateTimeline);
+    animateTimeline(); // Initial check
 
-        // Contact form handling
-        const contactForm = document.getElementById('contact-form');
-        
-        contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            
-            // Get form data
-            const formData = new FormData(contactForm);
-            const name = formData.get('name');
-            const email = formData.get('email');
-            const subject = formData.get('subject');
-            const message = formData.get('message');
-            
-            // Create custom modal for success message
-            const modal = document.createElement('div');
-            modal.className = 'fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50';
-            modal.innerHTML = `
-                <div class="bg-white p-8 rounded-lg shadow-xl max-w-md mx-4">
-                    <div class="text-center">
-                        <i class="fas fa-check-circle text-5xl text-green-500 mb-4"></i>
-                        <h3 class="text-xl font-semibold mb-2">Message Sent Successfully!</h3>
-                        <p class="text-gray-600 mb-4">Thank you for reaching out. I'll get back to you soon.</p>
-                        <button onclick="this.parentElement.parentElement.parentElement.remove()" class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition duration-300">
-                            Close
-                        </button>
-                    </div>
+    // Contact form handling
+    const contactForm = document.getElementById('contact-form');
+
+    contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        // Get form data
+        const formData = new FormData(contactForm);
+
+        // Create custom modal for success message
+        const modal = document.createElement('div');
+        modal.className = 'fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50';
+        modal.innerHTML = `
+            <div class="bg-white p-8 rounded-lg shadow-xl max-w-md mx-4">
+                <div class="text-center">
+                    <i class="fas fa-check-circle text-5xl text-green-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Message Sent Successfully!</h3>
+                    <p class="text-gray-600 mb-4">Thank you for reaching out. I'll get back to you soon.</p>
+                    <button id="close-modal" class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition duration-300">
+                        Close
+                    </button>
                 </div>
-            `;
-            
-            document.body.appendChild(modal);
-            contactForm.reset();
-            
-            // Auto-close modal after 3 seconds
-            setTimeout(() => {
-                if (modal.parentElement) {
-                    modal.remove();
-                }
-            }, 3000);
+            </div>
+        `;
+
+        document.body.appendChild(modal);
+
+        // Close modal button
+        document.getElementById('close-modal').addEventListener('click', () => {
+            modal.remove();
         });
 
-        // Close mobile menu when clicking on a link
-        const mobileNavLinks = document.querySelectorAll('#mobile-menu a');
-        mobileNavLinks.forEach(link => {
-            link.addEventListener('click', () => {
-                mobileMenu.classList.add('hidden');
-            });
-        });
-    </script>
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'969734b84108ffa7',t:'MTc1NDIzODY5My4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+        // Reset the form
+        contactForm.reset();
+    });
+</script>
+
+    <script>(function () { function c() { var b = a.contentDocument || a.contentWindow.document; if (b) { var d = b.createElement('script'); d.innerHTML = "window.__CF$cv$params={r:'969734b84108ffa7',t:'MTc1NDIzODY5My4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);"; b.getElementsByTagName('head')[0].appendChild(d) } } if (document.body) { var a = document.createElement('iframe'); a.height = 1; a.width = 1; a.style.position = 'absolute'; a.style.top = 0; a.style.left = 0; a.style.border = 'none'; a.style.visibility = 'hidden'; document.body.appendChild(a); if ('loading' !== document.readyState) c(); else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c); else { var e = document.onreadystatechange || function () { }; document.onreadystatechange = function (b) { e(b); 'loading' !== document.readyState && (document.onreadystatechange = e, c()) } } } })();</script>
+</body>
+
 </html>
